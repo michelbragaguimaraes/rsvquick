@@ -64,7 +64,7 @@ export const RequestShow: React.FC<IResourceComponentsProps> = () => {
   const copyLinkToClipboard = () => {
     if (request) {
       navigator.clipboard.writeText(
-        `https://rsvquick.netlify.app/r/${request?.id}`
+        `https://liamguimaraes.netlify.app/r/${request?.id}`
       );
       open?.({
         type: "success",
@@ -302,7 +302,7 @@ export const RequestShow: React.FC<IResourceComponentsProps> = () => {
                   <Stack gap={2}>
                     <Box ref={qrCodeRef} width="min-content">
                       <QRCode
-                        value={`https://rsvquick.netlify.app/r/${
+                        value={`https://liamguimaraes.netlify.app/r/${
                           request.id as string
                         }`}
                       />
