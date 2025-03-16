@@ -142,8 +142,8 @@ function App() {
                           title={<AppIcon />}
                           formProps={{
                             defaultValues: {
-                              email: "info@refine.dev",
-                              password: "refine-supabase",
+                              email: "email@email.com",
+                              password: "secret-password",
                             },
                           }}
                         />
